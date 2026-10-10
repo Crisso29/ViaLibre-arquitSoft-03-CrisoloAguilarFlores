@@ -45,7 +45,7 @@ flowchart TD
 
 Es la capa más importante y la más protegida. Contiene las entidades del negocio y las reglas que definen cómo funciona ViaLibre, independientemente de cualquier tecnología.
 
-No importa si el sistema corre en Android, en un servidor .NET o en la nube — las reglas del dominio son siempre las mismas.
+No importa si el sistema corre en Android, en un servidor .NET o en la nube, las reglas del dominio son siempre las mismas.
 
 **¿Qué contiene en ViaLibre?**
 
