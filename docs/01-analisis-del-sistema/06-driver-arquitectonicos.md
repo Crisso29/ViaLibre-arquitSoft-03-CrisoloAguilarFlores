@@ -1,6 +1,6 @@
 # Drivers Arquitectónicos
 
-Un driver arquitectónico es un requisito, atributo o restricción que obliga a tomar una decisión de arquitectura. No todos los requisitos son drivers — solo los que realmente cambian cómo se diseña el sistema.
+Un driver arquitectónico es un requisito, atributo o restricción que obliga a tomar una decisión de arquitectura. No todos los requisitos son drivers (solo los que realmente cambian cómo se diseña el sistema).
 
 Piénsalo así: si este driver no existiera, la arquitectura sería diferente.
 
@@ -13,5 +13,5 @@ Piénsalo así: si este driver no existiera, la arquitectura sería diferente.
 | DA-05 | 300 dispositivos pueden sincronizar al mismo tiempo. | RNF-03 | Obliga a diseñar el backend con procesamiento asíncrono interno (Channels de .NET) para absorber picos de carga. |
 | DA-06 | Una sola persona desarrolla y opera el sistema. | R-09 | Obliga a elegir monolito modular en lugar de microservicios. La complejidad operacional debe ser mínima. |
 | DA-07 | La identidad del conductor no puede almacenarse ni inferirse. | R-06, AC-04 | Obliga a usar hash SHA-256 irreversible del installationID en lugar de cualquier identificador personal. |
-| DA-08 | El costo operativo debe ser cercano a cero. | R-04, RNF-16 | Obliga a elegir infraestructura Free Tier permanente (Oracle Cloud ARM, Cloudflare Free, UptimeRobot Free). |
+| DA-08 | El costo operativo debe ser mínimo en este ciclo 2026-II. | R-04, RNF-16 | Obliga a elegir infraestructura Free Tier permanente (Oracle Cloud ARM, Cloudflare Free, UptimeRobot Free). |
 | DA-09 | El sistema debe escalar a más módulos en el futuro (empresas, autoridades). | AC-06 | Obliga a separar el backend en bounded contexts internos desde el inicio, aunque todo corra en un solo proceso. |
