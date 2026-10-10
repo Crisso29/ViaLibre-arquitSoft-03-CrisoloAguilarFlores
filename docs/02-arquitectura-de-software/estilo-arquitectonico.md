@@ -7,7 +7,7 @@ Un estilo arquitectónico define la forma global en que se organiza y despliega 
 ---
 ## Estilo seleccionado: Monolito Modular con Arquitectura en Capas
 
-ViaLibre adopta el **Monolito Modular** como estilo arquitectónico global. Todo el backend corre en un único proceso ASP.NET Core (.NET 8), pero organizado internamente en módulos con responsabilidades claramente delimitadas. Cada módulo tiene sus propias capas internas siguiendo Clean Architecture, lo que permite extraerlo como servicio independiente en versiones futuras sin reescribir su lógica de negocio.
+KillaUru adopta el **Monolito Modular** como estilo arquitectónico global. Todo el backend corre en un único proceso ASP.NET Core (.NET 8), pero organizado internamente en módulos con responsabilidades claramente delimitadas. Cada módulo tiene sus propias capas internas siguiendo Clean Architecture, lo que permite extraerlo como servicio independiente en versiones futuras sin reescribir su lógica de negocio.
 
 > **Capas = organización lógica interna. Monolito = unidad de despliegue.**
 
