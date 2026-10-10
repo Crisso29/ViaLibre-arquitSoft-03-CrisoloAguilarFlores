@@ -1,6 +1,6 @@
 # Restricciones
 
-Las restricciones son condiciones que no podemos cambiar. No son decisiones — son límites fijos que la arquitectura debe respetar sí o sí.
+Las restricciones son condiciones que no podemos cambiar. No son decisiones, son límites fijos que la arquitectura debe respetar sí o sí, establece el alcance del sistema.
 
 | ID | Tipo | Restricción |
 |---|---|---|
