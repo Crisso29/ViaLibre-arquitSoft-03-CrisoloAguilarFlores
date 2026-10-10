@@ -65,4 +65,4 @@ flowchart TD
 
 **Datos:** SQLite actúa como buffer local en el dispositivo del conductor durante los tramos sin señal. PostgreSQL con PostGIS almacena todas las anomalías geolocalizadas. Redis gestiona la caché del mapa público para responder en menos de 250 ms.
 
-**Infraestructura:** todo corre sobre Oracle Cloud ARM con Docker Compose, con costo operativo cero. Cloudflare gestiona el CDN, SSL y DNS. UptimeRobot monitorea los cuatro subdominios cada 5 minutos.
+**Infraestructura:** todo corre sobre Oracle Cloud ARM con Docker Compose, con costo operativo mínimo. Cloudflare gestiona el CDN, SSL y DNS. UptimeRobot monitorea los cuatro subdominios cada 5 minutos.
