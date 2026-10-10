@@ -1,6 +1,6 @@
 # Requisitos Funcionales
 
-¿Qué debe hacer el sistema? Cada requisito viene directamente de las historias de usuario.
+¿Qué debe hacer el sistema? Cada requisito viene directamente de las historias de usuario (un HU puede tener varios requisitos, pero un requisito no puede pertenecer a dos o más HUs).
 
 ## RF-01 a RF-05 — App Android (Detección)
 
