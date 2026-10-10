@@ -6,8 +6,8 @@
 
 | ID | Requisito |
 |---|---|
-| RNF-01 | El 95% de las consultas al mapa deben responder en menos de 250 ms desde Lima. |
-| RNF-02 | El backend debe procesar y guardar un evento entrante en menos de 100 ms. |
+| RNF-01 | El 95% de las consultas al mapa deben responder en menos de 300 ms desde Lima. |
+| RNF-02 | El backend debe procesar y guardar un evento entrante en menos de 300 ms. |
 | RNF-03 | El sistema debe soportar 300 dispositivos sincronizando al mismo tiempo sin degradarse. |
 | RNF-04 | El modelo TFLite debe clasificar una ventana de muestras en menos de 50 ms en un celular Android de gama media. |
 
