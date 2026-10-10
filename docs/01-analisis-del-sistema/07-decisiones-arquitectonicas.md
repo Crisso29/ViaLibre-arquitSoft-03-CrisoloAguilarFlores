@@ -18,7 +18,7 @@ Un ADR (Architecture Decision Record) documenta una decisión importante de arqu
 **Driver relacionado:** DA-06, DA-09
 
 **Contexto y problema**
-ViaLibre lo desarrolla y opera una sola persona con un plazo de 6 a 8 semanas. Elegir microservicios implicaría gestionar múltiples servicios, bases de datos independientes y una infraestructura compleja que haría inviable el proyecto en ese tiempo.
+KillaUru lo desarrolla y opera una sola persona con un plazo de 6 a 8 semanas. Elegir microservicios implicaría gestionar múltiples servicios, bases de datos independientes y una infraestructura compleja que haría inviable el proyecto en ese tiempo, además no es óptimo cuando un proyecto recién inicia.
 
 **Opciones consideradas**
 
@@ -93,7 +93,7 @@ SQLite como buffer local en el dispositivo. Cada evento se guarda con estado PEN
 **Driver relacionado:** DA-03, DA-04
 
 **Contexto y problema**
-El conductor no puede tocar el celular mientras maneja. La clasificación debe ser automática, en tiempo real y sin internet — descarta cualquier solución que envíe datos crudos a la nube para clasificar.
+El conductor no puede tocar el celular mientras maneja. La clasificación debe ser automática, en tiempo real y sin internet (descarta cualquier solución que envíe datos crudos a la nube para clasificar).
 
 **Opciones consideradas**
 
